@@ -1,0 +1,104 @@
+html,
+body,
+#root {
+  font: 0.9rem sans-serif;
+  background: #009fff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ec2f4b,
+    #009fff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ec2f4b,
+    #009fff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #1e2432;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search {
+  outline: none;
+  padding: 2rem 7%;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 8%;
+  border-radius: 20px;
+  background: rgba(212, 212, 212, 0.9);
+  box-shadow: 10px 10px 5px 0px rgba(21, 21, 21, 0.189);
+}
+
+p {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.city-temp {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e2432;
+  text-align: center;
+}
+
+.city sup {
+  font-size: 0.5em;
+}
+
+.city-name {
+  font-size: 2em;
+}
+
+.city-name sup {
+  padding: 0.2em 0.6em;
+  margin-left: 0.2em;
+  border-radius: 30px;
+  color: #fff;
+  background: #ff8c00;
+}
+
+.city-icon {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-searching {
+  color: #fff;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .search {
+    padding: 20px 15%;
+  }
+
+  .city {
+    padding: 40px 20%;
+  }
+}
