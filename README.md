@@ -6,11 +6,8 @@ here is a simple pwa created by react and 100% compatible on any platform you ar
 
 easily install it via any browser!
 
-##
-
-https://user-images.githubusercontent.com/81854585/193250972-2b550fcb-e5ce-4dcd-b387-3ac86f3a8913.mp4
-
- Demo
+## Screenshots
+![image](https://user-images.githubusercontent.com/81854585/194692434-e5380974-c7c0-4ab5-bf85-de5c9882bf4e.png)
 
 
 ## Getting Start
@@ -20,3 +17,5 @@ $ cd react-pwa-weather
 $ npm i
 $ npm start
 ```
+## Demo
+watch the demo via following [link!](https://reactweatherpwa-aligh.netlify.app/)
